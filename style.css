@@ -484,7 +484,7 @@ h2{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: start;
     align-content: center;
     min-height: 100vh;
     margin-right: 2%;
@@ -497,27 +497,38 @@ h2{
 }
 .sectionFormContactUs{
     display: flex;
-    height: 50%;
-    width: 100%;
-    justify-content: center;
+    flex-direction: column;
+    height: 80%;
+    width: 90%;
+    flex-wrap: nowrap;
+    justify-content: start;
     align-content: center;
     margin: auto;
     color: #545454;
     font-family: 'fira Sans', sans-serif;
-    font-size: 22;
+    font-size: 1rem;
 }
 .div1ContactUs, .div2ContactUs, .div3ContactUs,
 .div4ContactUs, .div5ContactUs{
     margin-top: 2%;
     margin-bottom: 2%;
+    height: 60%;
+    width: 100%;
+}
+.div4ContactUs textarea{
+    width: 100%;
 }
 .imageSectionContactUs{
     display: flex;
-    height: 50%;
+    height: 40%;
     width: 100%;
     justify-content: center;
     text-align: center;
     margin: auto;
+}
+.imageSectionContactUs img{
+    height: 100%;
+    width: 100%;
 }
 
 /* ---------------------MEDIA QUERY DIVISION FOR BIG SCREEN------------------------------- */
@@ -591,11 +602,7 @@ h2{
     
     /* "MAIN" INDEX*/
 
-    .mainIndex{
-        
-    }
     .titleHome{
-;
         width: 98%;
     }
 
