@@ -515,6 +515,23 @@ h2{
     height: 60%;
     width: 100%;
 }
+.div2ContactUs{
+    margin: auto;
+}
+.div1ContactUs input{
+    width: 100%;
+}
+.div2ContactUs label{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.div3ContactUs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
 .div4ContactUs textarea{
     width: 100%;
 }
