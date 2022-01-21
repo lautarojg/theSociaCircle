@@ -594,15 +594,14 @@ h2{
     }
     .titleHome{
         height: 2%;
-        width: 100%;
-        position: initial;
+        width: 98%;
     }
 
     h2{
         height: 1%;
-        margin-right: 2%;
+        margin-right: 10%;
         margin-top: -0.5%;
-        justify-content: start;
+ 
     
     }
     .photoIndex{
@@ -617,11 +616,12 @@ h2{
     /* "MAIN" BUSINESSES*/
     
     .mainBusinesses{
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         flex-direction: row;
     }
     .titleBusinesses{
         width: 98%;
+        margin-top: 1%;
     }
     .sectionMainBusinessesPrincipal{
         width: 96%;
