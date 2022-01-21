@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- STYLE CSS -->
+    <link rel="stylesheet" href="../style.css">
+    <!-- FUENTE DE GOOGLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header class="pageTop">
+        <h1><a href=index.html>The SOCIA Circle</a></h1>
+        <nav >
+            <ul class="ulNav">
+                <li><a href="../index.html" class="navButtons">HOME</a></li>
+                <li><a href="../Paginas/businesses.html" class="navButtons">BUSINESSES</a></li>
+                <li><a href="../Paginas/map.html" class="navButtons">MAP</a></li>
+                <li><a href="../Paginas/bepart.html" class="navButtons">BE PART</a></li>
+                <li><a href="../Paginas/contactus.html" class="navButtons">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </header> 
+    <main class="pageMiddle">
+        <section class="mainContactUs">
+            <h2 class="titleContactUs">CONTACT US</h2>
+            <section class="sectionFormContactUs">
+                <form>
+                    <ul>
+                        <div class="div1ContactUs">
+                            <label for="nombrecontactus">Nombre</label>
+                            <input type="text" placeholder="Alan" id="nombrecontactus">
+                            <label for="apellidocontactus">Apellido</label>
+                            <input type="text" placeholder="Smith" id="apellidocontactus"> 
+                        </div>
+                        <div class="div2ContactUs">
+                            <label for="tipodecontacto">Type Of Contact</label>              
+                            <select name="Choose your type of contact" id="tipodecontacto">
+                                <option value=""></option>
+                                <option value="Customer">Customer</option>
+                                <option value="Business">Business</option>
+                            </select>
+                        </div>
+                        <div class="div3ContactUs">
+                            <label for="emailcontacto">Email</label>
+                            <input type="email" placeholder="alansmith@gmail.com" id="emailcontacto">
+                        </div>
+                        <div class="div4ContactUs">
+                            <label for="writeyourcommenthere">Write your Comment Below</label><br>
+                            <textarea placeholder="Write your comment here" id="" cols="60" rows="10"></textarea>
+                        </div >
+                        <div class="div5ContactUs">
+                            <input type="reset" value="Reset">
+                            <input type="submit" value="Send">
+                        </div>
+                    </ul>
+                </form>
+            </section>
+            <section class="imageSectionContactUs">
+                <img src="../imagenes/thankyou.jpg" alt="Thank You Image">
+            </section>
+        </section>
+    </main>   
+    <footer class="pageBottom">        
+        <ul class="pFooter"> 
+            <li><a href="../index.html" class="pFooterLi"> The SOCIA Circle</a></li>
+            <li><a href="mailto:sociacircle@gmail.com" target="_blank" class="pFooterLi">sociacircle@gmail.com</a></li>
+            <li><a href="https://api.whatsapp.com/send/?phone=5491144444445&text=I+would+like+to+speak+with+Socia&app_absent=0" target="_blank" class="pFooterLi whatsapp">+5491144444445 </a></li>
+            <li><a href="https://goo.gl/maps/YUPMCQz92asiy24c6" target="_blank" class="pFooterLi">Calle Siempreviva 742, Springfield</a></li>
+        </ul>
+        <section class="sectionFooter"> 
+            <ul class="ulFooter">
+                <li><a href="https://www.instagram.com/sociacircle_ba" target="_blank" class="liFooter" >Instagram</a></li>
+                <li><a href="https://www.facebook.com" target="_blank" class="liFooter" >Facebook</a></li>
+                <li><a href="mailto:thesociacircle@gmail.com" target="_blank" class="liFooter" >E-Mail</a></li>
+            </ul>
+        </section>  
+    </footer>
+</body>
+</html>
