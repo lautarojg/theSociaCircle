@@ -662,6 +662,7 @@ h2{
         flex-direction: row;
         justify-content: center;
         text-align: center;
+        align-items: ;
         margin: 2%;
         flex-direction: row;
         display: inline;
@@ -694,9 +695,9 @@ h2{
         margin-top: 2%; 
     }
     .subMapB{
-        height: 100%;
+        height: 50%;
         width: 20%;
-        margin: auto;
+        margin: top;
         object-fit: fill;
     }
     
