@@ -383,7 +383,7 @@ h2{
     width: 100%;
     height: 50%;
     margin-top: 20%;
-   flex-direction: column;
+    flex-direction: column;
     text-align: center;
     justify-content: start;
 }
@@ -725,128 +725,21 @@ h2{
         width: 50%;
         height: 100%;
         color: #545454;
-        display: flex;
-        flex-direction: column;
         justify-content: center;
-        align-items: center;
     }
     .sectionDescriptionFromMapMain{
-        display: flex;
-        height: 50%;
         width: 80%;
-        flex-direction: column;
         flex-wrap: wrap;
         justify-content: center;
         text-align: left;
         margin: 2%;
     }
-    .descriptionTitleFromMap{
-        color: #545454;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        font-family: 'Fira Sans', sans-serif;
-    }
-    .paragraphFromTitleFromMap{
-        font-family: 'Fira Sans', sans-serif;
-        color: #545454;
-    }
     .mapListMap{
-        display: flex;
-        width: 100%;
-        height: 50%;
-        flex-direction: column;
         text-align: left;
-        justify-content: start;
         margin-left: 20%;
-    }
-    .titleMapListMap{
-        color: #545454;
-        font-family: 'Fira Sans', sans-serif;
-    }
-    .ulMapListMap{
-        color: #545454;
-        font-family: 'Fira Sans', sans-serif;
-        list-style: none;
-        margin-top: 2%;
-    }
-    .buttonLiMapFromMain{
-        color: #545454;
     }
     
     /* MAIN BE PART */
-    
-    .mainBePart{
-        height: 100%;
-        width: 96%;
-        flex-direction: column;
-        display: flex;
-        flex-wrap: nowrap;
-        position: relative;
-        min-height: 100vh;
-        margin-right: 2%;
-        margin-left: 2%;
-    }
-    .titleMainBePart{
-        height: 3%;
-        width: 100%;
-        color: #8180805f;
-    }
-    .section1MainBePart{
-        height: 90%;
-        width: 100%;
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        justify-content: center;
-        margin-top: 2%;
-    }
-    .sectionImageBePart{
-        height: 70%;
-        width: 100%;
-        text-align: center;
-        justify-content: center;
-        margin-bottom: 2%;
-        margin-top: 3%;
-        display: flex;
-        flex-direction: column;
-    }
-    .imageSectionBePart{
-        height: 100%;
-        width: 100%;
-        justify-content: center;
-        text-align: center;
-        object-fit:cover;
-    }
-    .pInsideSectionImageBePart{
-        color: #545454;
-        font-family: 'Fira Sans', sans-serif;
-        font-size: 26px;
-        margin-bottom: 6%;
-    }
-    .tableSectionBePart{
-        height: 40%;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        margin-right: 5%;
-    }
-    .tableTitleBePart{
-        color: #545454;
-        font-family: 'Fira Sans', sans-serif;
-        justify-content: center;
-        text-align: center;
-        margin-bottom: 2%;
-    }
-    .tableBePart{
-        width: 80%;
-        color: #545454;
-        font-family: 'Fira Sans', sans-serif;
-        justify-content: center;
-        text-align: center;
-        margin: auto;
-    }
     
     /* MAIN CONTACT US */
     
@@ -870,7 +763,7 @@ h2{
     .sectionFormContactUs{
         display: flex;
         height: 50%;
-        width: 100%;
+        width: 50%;
         justify-content: center;
         align-content: center;
         margin: auto;
