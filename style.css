@@ -669,8 +669,7 @@ h2{
     .pTitleB{
         height: 10%;
         font-size: 2rem;
-        text-align: left;e
-        justify-content: start;
+        text-align: left;
     }
     .ulMainBusinesses{
         text-align: left;
@@ -694,7 +693,7 @@ h2{
         margin-top: 2%; 
     }
     .subMapB{
-        height: 50%;
+        height: 40%;
         width: 20%;
         margin: top;
         object-fit: fill;
@@ -743,46 +742,15 @@ h2{
     
     /* MAIN CONTACT US */
     
-    .mainContactUs{
-        height: 100%;
-        width: 96%;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-content: center;
-        align-content: center;
-        min-height: 100vh;
-        margin-right: 2%;
-        margin-left: 2%;
-    }
-    .titleContactUs{
-        height: 6%;
-        width: 100%;
-        color: #8180805f;
-    }
     .sectionFormContactUs{
-        display: flex;
         height: 50%;
         width: 50%;
         justify-content: center;
         align-content: center;
-        margin: auto;
-        color: #545454;
-        font-family: 'fira Sans', sans-serif;
         font-size: 22;
     }
-    .div1ContactUs, .div2ContactUs, .div3ContactUs,
-    .div4ContactUs, .div5ContactUs{
-        margin-top: 2%;
-        margin-bottom: 2%;
-    }
     .imageSectionContactUs{
-        display: flex;
         height: 50%;
-        width: 100%;
-        justify-content: center;
-        text-align: center;
-        margin: auto;
     }
     
 }
