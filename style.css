@@ -626,7 +626,7 @@ h2{
     h2{
         height: 4%;
         margin-right: 10%;
-        margin-top: -0.2%;
+        margin-top: 0.2%;
  
     
     }
@@ -647,7 +647,7 @@ h2{
     }
     .titleBusinesses{
         width: 98%;
-        margin-top: 1%;
+        margin-top: 2%;
     }
     .sectionMainBusinessesPrincipal{
         width: 96%;
@@ -709,7 +709,7 @@ h2{
     .titleMainMap{
         height: 3%;
         width: 100%;
-        margin-top: -0.5%;
+        margin-top: 0.2%;
     }
     .section1FromMap{
         height: 90%;
