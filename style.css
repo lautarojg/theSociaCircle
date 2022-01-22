@@ -670,7 +670,7 @@ h2{
     .pTitleB{
         height: 10%;
         font-size: 2rem;
-        text-align: left;
+        text-align: left;e
         justify-content: start;
     }
     .ulMainBusinesses{
@@ -717,8 +717,7 @@ h2{
         width: 100%;
         position: absolute;
         color: #8180805f;
-        margin-right: 2%;
-        margin-left: 2%;
+        margin-top: -0.5%;
     }
     .section1FromMap{
         height: 90%;
