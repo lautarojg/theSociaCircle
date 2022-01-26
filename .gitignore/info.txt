@@ -1,0 +1,20 @@
+o sea para recapitular… en el Visual vamos al GIT, 
+aseugramos de que este GIT INIT, GIT ADD y GIT COMMIT 
+con un primer nombre… luego hacemos el git remote add origin URL … 
+luego de eso hacemos un GIT ADD . nuevamente y luego el GIT PUSH, 
+si es la primera vez puede pedirnos que lo nombremos como master, 
+(fatal error bla bla) esta bien loq ue digo?
+
+
+para TRAERNOS los archivos de github para la pc
+desde la carpeta del repositorio hacemos un 
+	git pull origin RAMADONDEESTAMOS (ejemplo MAIN o MASTER) 
+
+para guardar
+git add . && git commit -m "nuevonombreaqui"
+
+
+git checkout master ( o develop)
+
+git merge develop (o master)
+
