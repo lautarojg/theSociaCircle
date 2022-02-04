@@ -18,3 +18,30 @@ git checkout master ( o develop)
 
 git merge develop (o master)
 
+
+PARA EMPEZAR CON EL SASS:
+
+Primero hacer:
+
+npm init
+
+ahi nos va a pedir completar unos datos, damos todo ok bla bla
+
+Luego vamos al archivo package.json que nos va a crear y le agregamos en la seccion script:
+
+"build-css": "node-sass --include-path scss scss/style.scss css/main.css",
+"watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+luego seguimos creando 2 carpetas en la parte principal
+una llamada CSS con un archivo llamado main.css adentro
+otra llamada scss con un style.css adentro
+
+luego corremos el comando
+
+npm install -D node-sass nodemon
+
+luego para arrancar a que el sass compile hacemos un 
+
+npm run watch-css  (este ultimo comando va a llamar al nombre que le pusimos al de arriba)
+
+
