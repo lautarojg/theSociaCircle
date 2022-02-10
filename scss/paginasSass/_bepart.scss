@@ -14,7 +14,7 @@
 .titleMainBePart{
     height: 3%;
     width: 100%;
-    color: #8180805f;
+    color: $colorSecundario;
 }
 .section1MainBePart{
     height: 90%;
@@ -43,7 +43,7 @@
     object-fit:cover;
 }
 .pInsideSectionImageBePart{
-    color: #545454;
+    color: $colorBackgroundPrincipal;
     font-family: 'Fira Sans', sans-serif;
     font-size: 26px;
     margin-bottom: 6%;
@@ -58,7 +58,7 @@
     margin-right: 5%;
 }
 .tableTitleBePart{
-    color: #545454;
+    color: $colorBackgroundPrincipal;
     font-family: 'Fira Sans', sans-serif;
     justify-content: center;
     text-align: center;
@@ -66,7 +66,7 @@
 }
 .tableBePart{
     width: 80%;
-    color: #545454;
+    color: $colorBackgroundPrincipal;
     font-family: 'Fira Sans', sans-serif;
     justify-content: center;
     text-align: center;

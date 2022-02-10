@@ -14,7 +14,7 @@
 .titleBusinesses{
     height: 3%;
     width: 96%;
-    color: #8180805f;
+    color: $colorSecundario;
     margin-right: 2%;
     margin-left: 2%;
     margin-top: 5%;
@@ -34,7 +34,7 @@
     flex-direction: column;
     justify-content: start;
     align-content: start;
-    color: #545454;
+    color: $colorBackgroundPrincipal;
     flex-wrap: wrap;
 }
 .pTitleB{
@@ -50,7 +50,7 @@
 }
 .ulMainBusinesses{
     width: 100%;
-    color: #545454;
+    color: $colorBackgroundPrincipal;
     font-family: 'Fira Sans', sans-serif;
     text-decoration: none;
     font-size: 26px;
@@ -61,7 +61,7 @@
 }
 .subButtonBusinesses{
     width: 100%;
-    color: #545454;
+    color: $colorBackgroundPrincipal;
     font-size: 1.5rem;
 }
 .sectionMainBusinesses2{
@@ -69,7 +69,7 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-    color: #545454;
+    color: $colorBackgroundPrincipal;
     flex-wrap: nowrap;
     justify-content: center;
     align-content: center;
@@ -96,7 +96,7 @@
 .subMapB{
     height: 50%;
     width: 96%;
-    color: #545454;
+    color: $colorBackgroundPrincipal;
     margin-right: 2%;
     margin-left: 2%;
     margin-top: 5%;
@@ -145,7 +145,7 @@
         justify-content: left;
     }
     .subButtonBusinesses{
-        color: #545454;
+        color: $colorBackgroundPrincipal;
     }
     .sectionMainBusinesses2{
         height: 100%;
