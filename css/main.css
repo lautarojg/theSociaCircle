@@ -1,0 +1,704 @@
+/* CONFIGURACION DEl STYLE */
+* {
+  margin: 0;
+  padding: 0; }
+
+a:-webkit-any-link {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  list-style: none; }
+
+dl, ol, ul {
+  padding: 0;
+  margin-bottom: 0; }
+
+a:hover {
+  color: black;
+  font-weight: bolder;
+  animation-play-state: running; }
+
+/* MOBILE FIRST WEBSITE */
+body {
+  height: 100%;
+  font-family: unset;
+  font-size: unset;
+  font-weight: unset;
+  line-height: unset; }
+
+header {
+  z-index: 50; }
+
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "nav"  "main"  "foot";
+  grid-template-rows: auto, 1fr, auto;
+  min-height: 100vh; }
+
+.pageTop {
+  grid-area: nav;
+  position: fixed;
+  width: 100%;
+  top: 0; }
+
+.pageMiddle {
+  grid-area: main;
+  margin-top: 60px;
+  margin-bottom: 100px; }
+
+.pageBottom {
+  grid-area: foot;
+  position: fixed;
+  width: 100%;
+  bottom: 0; }
+
+/* HEADER */
+header {
+  width: 100%;
+  height: 10%;
+  background-color: #545454;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  position: sticky;
+  align-self: flex-start;
+  top: 0; }
+
+.principalTitleSocia {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1%;
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem; }
+
+nav {
+  display: flex;
+  width: 100%;
+  height: 30%;
+  color: white; }
+
+.ulNav {
+  display: flex;
+  list-style: none;
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.8rem; }
+
+.navButtons {
+  color: white;
+  font-family: 'Fira Sans', sans-serif;
+  text-decoration: none;
+  z-index: 1000; }
+
+@media only screen and (min-width: 768px) {
+  /* HEADER */
+  header {
+    height: 6%;
+    flex-direction: row; }
+  .principalTitleSocia {
+    height: 100%;
+    width: 29%;
+    justify-content: left;
+    align-items: center; }
+  nav {
+    width: 70%;
+    height: 100%; }
+  .ulNav {
+    width: 80%;
+    flex-wrap: wrap; }
+  .navButtons {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+    font-size: 1.3rem; } }
+
+/* FOOTER STYLE */
+footer {
+  width: 100%;
+  height: 12%;
+  background-color: #545454;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-self: flex-end;
+  bottom: 0;
+  padding-bottom: 0.5%;
+  padding-top: 0.5%;
+  text-decoration: none; }
+
+.pFooter {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  list-style: none; }
+
+.pFooterLi {
+  font-size: 0.7rem;
+  font-family: 'Fira Sans', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  color: white; }
+
+.sectionFooter {
+  display: flex;
+  height: 50%;
+  width: 100%;
+  color: white;
+  justify-content: space-evenly; }
+
+.ulFooter {
+  display: flex;
+  list-style: none;
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center; }
+
+.liFooter {
+  color: black;
+  font-family: 'Fira Sans', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1rem; }
+
+.animate__animated {
+  animation-play-state: paused; }
+
+.animate__animated:hover {
+  animation-play-state: running;
+  animation-iteration-count: infinite; }
+
+.face:hover {
+  color: #4267B2; }
+
+.insta:hover {
+  color: #dd2a7b; }
+
+.gmail:hover {
+  color: #DB4437; }
+
+.longText {
+  display: none; }
+
+.whatsapp:hover {
+  color: green; }
+
+@media only screen and (min-width: 768px) {
+  /* FOOTER STYLE */
+  footer {
+    height: 10%;
+    flex-direction: row;
+    position: sticky; }
+  .pFooter {
+    height: 100%;
+    width: 59%;
+    margin-left: 1%;
+    font-size: 1.3rem; }
+  .pFooterLi {
+    font-size: 1.3rem; }
+  .sectionFooter {
+    height: 100%;
+    width: 40%; }
+  .liFooter {
+    font-size: 1.3rem; }
+  .longText {
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    font-size: 1.3rem; }
+  .shortText {
+    display: none; } }
+
+/* "MAIN" INDEX*/
+.mainIndex {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: initial;
+  min-height: 100vh; }
+
+h2 {
+  width: 98%;
+  font-size: 1rem;
+  font-family: 'Fira Sans', sans-serif;
+  text-decoration: none;
+  color: #8180805f;
+  text-align: right;
+  margin-right: 0.5%;
+  margin-top: 5%; }
+
+.photoIndex {
+  height: 50%;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  object-fit: scale-down; }
+
+.pIndex {
+  font-size: 1.3rem;
+  font-family: 'Fira Sans', sans-serif;
+  text-decoration: none; }
+
+@media only screen and (min-width: 768px) {
+  /* "MAIN" INDEX*/
+  .titleHome {
+    width: 98%; }
+  h2 {
+    height: 4%;
+    margin-right: 10%;
+    margin-top: 0.2%; }
+  .photoIndex {
+    height: 40rem;
+    width: 60rem;
+    object-fit: cover; }
+  .pIndex {
+    font-size: 1.8rem; } }
+
+/* "MAIN" BUSINESSES*/
+.mainBusinesses {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  flex-wrap: nowrap;
+  min-height: 100vh;
+  margin: auto;
+  align-content: center; }
+
+.titleBusinesses {
+  height: 3%;
+  width: 96%;
+  color: #8180805f;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 5%; }
+
+.sectionMainBusinessesPrincipal {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin-top: 10%; }
+
+.sectionMainBusinesses1 {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-content: start;
+  color: #545454;
+  flex-wrap: wrap; }
+
+.pTitleB {
+  width: 100%;
+  height: 20%;
+  font-size: 26px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 900;
+  text-decoration: none;
+  text-align: center;
+  align-content: center;
+  justify-content: center; }
+
+.ulMainBusinesses {
+  width: 100%;
+  color: #545454;
+  font-family: 'Fira Sans', sans-serif;
+  text-decoration: none;
+  font-size: 26px;
+  text-align: center;
+  justify-content: center;
+  list-style: none;
+  margin-top: 5%; }
+
+.subButtonBusinesses {
+  width: 100%;
+  color: #545454;
+  font-size: 1.5rem; }
+
+.sectionMainBusinesses2 {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  color: #545454;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  margin-top: 5%;
+  flex-direction: column;
+  display: inline; }
+
+.subTitleB {
+  width: 100%;
+  font-size: 20px;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 900;
+  text-decoration: none;
+  text-align: center; }
+
+.subDescB {
+  width: 100%;
+  font-size: 20px;
+  font-family: 'Fira Sans', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 5%; }
+
+.subMapB {
+  height: 50%;
+  width: 96%;
+  color: #545454;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 5%; }
+
+.subMapB iframe {
+  width: 100%;
+  height: 100%; }
+
+@media only screen and (min-width: 768px) {
+  /* "MAIN" BUSINESSES*/
+  .mainBusinesses {
+    flex-wrap: wrap;
+    flex-direction: row; }
+  .titleBusinesses {
+    width: 98%;
+    margin-top: 2%; }
+  .sectionMainBusinessesPrincipal {
+    width: 96%;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    margin-right: 2%; }
+  .sectionMainBusinesses1 {
+    height: 100%;
+    width: 36%;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 2%;
+    flex-direction: row;
+    display: inline; }
+  .pTitleB {
+    height: 10%;
+    font-size: 2rem;
+    text-align: left; }
+  .ulMainBusinesses {
+    text-align: left;
+    justify-content: left; }
+  .subButtonBusinesses {
+    color: #545454; }
+  .sectionMainBusinesses2 {
+    height: 100%;
+    width: 35%;
+    flex-direction: row;
+    flex-wrap: wrap; }
+  .subTitleB {
+    text-align: left; }
+  .subDescB {
+    text-align: left;
+    width: 90%;
+    margin-top: 2%; }
+  .subMapB {
+    height: 40%;
+    width: 20%;
+    margin: top;
+    object-fit: fill; } }
+
+/* "MAIN" MAP*/
+.mainMainFromMap {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  align-content: center; }
+
+.titleMainMap {
+  height: 5%;
+  width: 96%;
+  position: absolute;
+  color: #8180805f;
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 5%; }
+
+.section1FromMap {
+  height: 85%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.mapMapMap {
+  height: 50%;
+  width: 100%; }
+
+.mapMapMap iframe {
+  height: 100%;
+  width: 100%; }
+
+.sectionMapDescription {
+  width: 100%;
+  height: 50%;
+  color: #545454;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.sectionDescriptionFromMapMain {
+  display: flex;
+  height: 50%;
+  width: 96%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  text-align: center;
+  align-items: center;
+  margin: 2%; }
+
+.descriptionTitleFromMap {
+  color: #545454;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  font-family: 'Fira Sans', sans-serif; }
+
+.paragraphFromTitleFromMap {
+  font-family: 'Fira Sans', sans-serif;
+  color: #545454; }
+
+.mapListMap {
+  display: flex;
+  width: 100%;
+  height: 50%;
+  margin-top: 20%;
+  flex-direction: column;
+  text-align: center;
+  justify-content: start; }
+
+.titleMapListMap {
+  color: #545454;
+  font-family: 'Fira Sans', sans-serif; }
+
+.ulMapListMap {
+  color: #545454;
+  font-family: 'Fira Sans', sans-serif;
+  list-style: none;
+  margin-top: 2%; }
+
+.buttonLiMapFromMain {
+  color: #545454; }
+
+@media only screen and (min-width: 768px) {
+  /* "MAIN" MAP*/
+  .mainMainFromMap {
+    width: 96%;
+    justify-content: space-evenly; }
+  .titleMainMap {
+    height: 3%;
+    width: 100%;
+    margin-top: 0.2%; }
+  .section1FromMap {
+    height: 90%;
+    width: 96%;
+    justify-content: space-evenly; }
+  .mapMapMap {
+    height: 100%;
+    width: 50%; }
+  .sectionMapDescription {
+    width: 50%;
+    height: 100%;
+    color: #545454;
+    justify-content: center; }
+  .sectionDescriptionFromMapMain {
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: left;
+    margin: 2%; }
+  .mapListMap {
+    text-align: left;
+    margin-left: 20%; } }
+
+/* MAIN BE PART */
+.mainBePart {
+  height: 100%;
+  width: 96%;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+  min-height: 100vh;
+  margin-right: 2%;
+  margin-left: 2%; }
+
+.titleMainBePart {
+  height: 3%;
+  width: 100%;
+  color: #8180805f; }
+
+.section1MainBePart {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 2%; }
+
+.sectionImageBePart {
+  height: 70%;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 2%;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column; }
+
+.imageSectionBePart {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  object-fit: cover; }
+
+.pInsideSectionImageBePart {
+  color: #545454;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 26px;
+  margin-bottom: 6%; }
+
+.tableSectionBePart {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-right: 5%; }
+
+.tableTitleBePart {
+  color: #545454;
+  font-family: 'Fira Sans', sans-serif;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 2%; }
+
+.tableBePart {
+  width: 80%;
+  color: #545454;
+  font-family: 'Fira Sans', sans-serif;
+  justify-content: center;
+  text-align: center;
+  margin: auto; }
+
+/* MAIN CONTACT US */
+.mainContactUs {
+  height: 100%;
+  width: 96%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: start;
+  align-content: center;
+  min-height: 100vh;
+  margin-right: 2%;
+  margin-left: 2%; }
+
+.titleContactUs {
+  height: 6%;
+  width: 100%;
+  color: #8180805f; }
+
+.sectionFormContactUs {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 90%;
+  flex-wrap: nowrap;
+  justify-content: start;
+  align-content: center;
+  margin: auto;
+  color: #545454;
+  font-family: 'fira Sans', sans-serif;
+  font-size: 1rem; }
+
+.div1ContactUs, .div2ContactUs, .div3ContactUs,
+.div4ContactUs, .div5ContactUs {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  height: 60%;
+  width: 100%; }
+
+.div2ContactUs {
+  margin: auto; }
+
+.div1ContactUs input {
+  width: 100%; }
+
+.div2ContactUs label {
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.div3ContactUs {
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+
+.div4ContactUs textarea {
+  width: 100%; }
+
+.imageSectionContactUs {
+  display: flex;
+  height: 40%;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  margin: auto; }
+
+.imageSectionContactUs img {
+  height: 100%;
+  width: 100%; }
+
+@media only screen and (min-width: 768px) {
+  /* MAIN CONTACT US */
+  .sectionFormContactUs {
+    height: 50%;
+    width: 50%;
+    justify-content: center;
+    align-content: center;
+    font-size: 22; }
+  .imageSectionContactUs {
+    height: 50%; } }

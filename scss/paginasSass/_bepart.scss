@@ -1,0 +1,74 @@
+/* MAIN BE PART */
+
+.mainBePart{
+    height: 100%;
+    width: 96%;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    min-height: 100vh;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.titleMainBePart{
+    height: 3%;
+    width: 100%;
+    color: #8180805f;
+}
+.section1MainBePart{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2%;
+}
+.sectionImageBePart{
+    height: 70%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 2%;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+}
+.imageSectionBePart{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    object-fit:cover;
+}
+.pInsideSectionImageBePart{
+    color: #545454;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 26px;
+    margin-bottom: 6%;
+}
+.tableSectionBePart{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 5%;
+}
+.tableTitleBePart{
+    color: #545454;
+    font-family: 'Fira Sans', sans-serif;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.tableBePart{
+    width: 80%;
+    color: #545454;
+    font-family: 'Fira Sans', sans-serif;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}

@@ -1,0 +1,59 @@
+/* CONFIGURACION DEl STYLE */
+*{
+    margin: 0;
+    padding: 0;
+}
+a:-webkit-any-link{
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+    list-style: none;
+}
+dl, ol, ul {
+    padding: 0;
+    margin-bottom: 0;
+    }
+a:hover{
+    color: black;
+    font-weight: bolder;
+    animation-play-state:running;
+}
+/* MOBILE FIRST WEBSITE */
+
+body{
+    height: 100%;
+    font-family: unset ; 
+    font-size: unset;
+    font-weight: unset;
+    line-height: unset; 
+}
+header{
+    z-index: 50;
+}
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "nav" 
+    "main" 
+    "foot" ;
+    grid-template-rows: auto, 1fr, auto;
+    min-height: 100vh;
+}
+.pageTop{
+    grid-area: nav;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.pageMiddle{
+    grid-area: main;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.pageBottom{
+    grid-area: foot;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

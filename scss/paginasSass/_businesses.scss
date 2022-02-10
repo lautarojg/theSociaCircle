@@ -1,0 +1,170 @@
+/* "MAIN" BUSINESSES*/
+
+.mainBusinesses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    flex-wrap: nowrap;
+    min-height: 100vh;
+    margin: auto;
+    align-content: center;
+}
+.titleBusinesses{
+    height: 3%;
+    width: 96%;
+    color: #8180805f;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+ .sectionMainBusinessesPrincipal{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-top: 10%;
+}
+.sectionMainBusinesses1{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: start;
+    color: #545454;
+    flex-wrap: wrap;
+}
+.pTitleB{
+    width: 100%;
+    height: 20%;
+    font-size: 26px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+.ulMainBusinesses{
+    width: 100%;
+    color: #545454;
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+    font-size: 26px;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    margin-top: 5%;
+}
+.subButtonBusinesses{
+    width: 100%;
+    color: #545454;
+    font-size: 1.5rem;
+}
+.sectionMainBusinesses2{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #545454;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    margin-top: 5%;
+    flex-direction: column;
+    display: inline;
+}
+.subTitleB{
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 900;
+    text-decoration: none;
+    text-align: center;
+}
+.subDescB{
+    width: 100%;
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 5%; 
+}
+.subMapB{
+    height: 50%;
+    width: 96%;
+    color: #545454;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+.subMapB iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media only screen and (min-width: 768px){
+       /* "MAIN" BUSINESSES*/
+    
+       .mainBusinesses{
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    .titleBusinesses{
+        width: 98%;
+        margin-top: 2%;
+    }
+    .sectionMainBusinessesPrincipal{
+        width: 96%;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 5%;
+        margin-right: 2%;
+    }
+    .sectionMainBusinesses1{
+        height: 100%;
+        width: 36%;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        margin: 2%;
+        flex-direction: row;
+        display: inline;
+    }
+    .pTitleB{
+        height: 10%;
+        font-size: 2rem;
+        text-align: left;
+    }
+    .ulMainBusinesses{
+        text-align: left;
+        justify-content: left;
+    }
+    .subButtonBusinesses{
+        color: #545454;
+    }
+    .sectionMainBusinesses2{
+        height: 100%;
+        width: 35%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .subTitleB{
+        text-align: left;
+    }
+    .subDescB{
+        text-align: left;
+        width: 90%;
+        margin-top: 2%; 
+    }
+    .subMapB{
+        height: 40%;
+        width: 20%;
+        margin: top;
+        object-fit: fill;
+    }
+}

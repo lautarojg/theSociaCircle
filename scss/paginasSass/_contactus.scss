@@ -1,0 +1,84 @@
+/* MAIN CONTACT US */
+
+.mainContactUs{
+    height: 100%;
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-content: center;
+    min-height: 100vh;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+.titleContactUs{
+    height: 6%;
+    width: 100%;
+    color: #8180805f;
+}
+.sectionFormContactUs{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 90%;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-content: center;
+    margin: auto;
+    color: #545454;
+    font-family: 'fira Sans', sans-serif;
+    font-size: 1rem;
+}
+.div1ContactUs, .div2ContactUs, .div3ContactUs,
+.div4ContactUs, .div5ContactUs{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 60%;
+    width: 100%;
+}
+.div2ContactUs{
+    margin: auto;
+}
+.div1ContactUs input{
+    width: 100%;
+}
+.div2ContactUs label{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.div3ContactUs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.div4ContactUs textarea{
+    width: 100%;
+}
+.imageSectionContactUs{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+.imageSectionContactUs img{
+    height: 100%;
+    width: 100%;
+}
+@media only screen and (min-width: 768px){
+       /* MAIN CONTACT US */
+    
+       .sectionFormContactUs{
+        height: 50%;
+        width: 50%;
+        justify-content: center;
+        align-content: center;
+        font-size: 22;
+    }
+    .imageSectionContactUs{
+        height: 50%;
+    }
+}

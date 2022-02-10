@@ -1,0 +1,55 @@
+/* "MAIN" INDEX*/
+
+.mainIndex{
+    height: 100% ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: initial;
+    min-height: 100vh;
+}
+h2{
+    width: 98%;
+    font-size: 1rem;
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+    color: #8180805f;
+    text-align: right;
+    margin-right: 0.5%;
+    margin-top: 5%;
+}
+.photoIndex{
+    height: 50%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    object-fit:scale-down;
+}
+.pIndex{
+    font-size: 1.3rem;
+    font-family: 'Fira Sans', sans-serif;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 768px){
+        /* "MAIN" INDEX*/
+
+        .titleHome{
+            width: 98%;
+        }
+        h2{
+            height: 4%;
+            margin-right: 10%;
+            margin-top: 0.2%;
+        }
+        .photoIndex{
+            height: 40rem;
+            width: 60rem;
+            object-fit: cover;
+        }
+        .pIndex{
+            font-size: 1.8rem;
+        }
+    }
